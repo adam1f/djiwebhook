@@ -59,7 +59,7 @@ function run() {
             });
 
             const res = await data.json();
-            console.log('\x1b[31m%s\x1b[0m\'', res.Value.isCare)
+            console.log(res.Value.isCare)
             if (res.Value.isCare === true) {
 
 
@@ -84,7 +84,7 @@ function run() {
 
                 hook.send(embed);
                 
-                console.log('\x1b[34m%s\x1b[0m\'', "WEBHOOK HAS BEEN SENT")
+                console.log("WEBHOOK HAS BEEN SENT")
 
             }
 
@@ -140,7 +140,7 @@ function run1() {
             });
 
             const res = await data.json();
-            console.log('\x1b[31m%s\x1b[0m\'', res.Value.isCare)
+            console.log(res.Value.isCare)
             if (res.Value.isCare === true) {
 
 
@@ -165,7 +165,7 @@ function run1() {
 
                 hook.send(embed);
 
-                console.log('\x1b[34m%s\x1b[0m\'', "WEBHOOK HAS BEEN SENT")
+                console.log("WEBHOOK HAS BEEN SENT")
 
             }
 
