@@ -5,7 +5,7 @@ import fetch from 'node-fetch';
 const og = "3N3BH7F002038E";
 
 import { Webhook, MessageBuilder } from 'discord-webhook-node';
-const hook = new Webhook("https://discord.com/api/webhooks/888111663599976458/uo63CeufIY2-HQ9CfR3TyyOtk1mRRlq6uw7SzHThHJr9IfLjT5u7FQ15UH5ahUjMM6uj");
+const hook = new Webhook("https://discord.com/api/webhooks/887856793882087446/jpsYLjFJM4tRw2Z2RmzKemzAOJP09hv3-LSNzJRTSZsQIOidoMUXQxtOFNZLuaW8Kq0P");
 
 
 
@@ -59,7 +59,7 @@ function run() {
             });
 
             const res = await data.json();
-            console.log(res.Value.isCare)
+            console.log('\x1b[31m%s\x1b[0m\'', res.Value.isCare)
             if (res.Value.isCare === true) {
 
 
@@ -79,12 +79,12 @@ function run() {
                     .addField('Does it have Warranty?: ', productInfo.hasWarranty)
                     .setColor('#00b0f4')
                     .setThumbnail('https://www1.djicdn.com/dps/de46652dd99c67d4f8d17607e3bf0dce.jpg')
-                    .setDescription('SERIAL HAS BEEN GENERATED SUCCESSFULLY')
+                    .setDescription('SERIAL HAS BEEN GENERATED SUCCESSFULLY BY ADAM NIGGA')
                     .setTimestamp();
 
                 hook.send(embed);
                 
-                console.log("WEBHOOK HAS BEEN SENT")
+                console.log('\x1b[34m%s\x1b[0m\'', "WEBHOOK HAS BEEN SENT")
 
             }
 
@@ -140,7 +140,7 @@ function run1() {
             });
 
             const res = await data.json();
-            console.log(res.Value.isCare)
+            console.log('\x1b[31m%s\x1b[0m\'', res.Value.isCare)
             if (res.Value.isCare === true) {
 
 
@@ -160,12 +160,12 @@ function run1() {
                     .addField('Does it have Warranty?: ', productInfo.hasWarranty)
                     .setColor('#00b0f4')
                     .setThumbnail('https://www1.djicdn.com/dps/de46652dd99c67d4f8d17607e3bf0dce.jpg')
-                    .setDescription('SERIAL HAS BEEN GENERATED SUCCESSFULLY')
+                    .setDescription('SERIAL HAS BEEN GENERATED SUCCESSFULLY BY ADAM NIGGA')
                     .setTimestamp();
 
                 hook.send(embed);
 
-                console.log("WEBHOOK HAS BEEN SENT")
+                console.log('\x1b[34m%s\x1b[0m\'', "WEBHOOK HAS BEEN SENT")
 
             }
 
