@@ -5,7 +5,7 @@ import fetch from 'node-fetch';
 const og = "3N3BH7F002038E";
 
 import { Webhook, MessageBuilder } from 'discord-webhook-node';
-const hook = new Webhook("https://discord.com/api/webhooks/887856793882087446/jpsYLjFJM4tRw2Z2RmzKemzAOJP09hv3-LSNzJRTSZsQIOidoMUXQxtOFNZLuaW8Kq0P");
+const hook = new Webhook("https://discord.com/api/webhooks/888111663599976458/uo63CeufIY2-HQ9CfR3TyyOtk1mRRlq6uw7SzHThHJr9IfLjT5u7FQ15UH5ahUjMM6uj");
 
 
 
